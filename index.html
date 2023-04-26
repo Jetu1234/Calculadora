@@ -1,0 +1,48 @@
+<html>
+<script>
+    var Oper = prompt("Que quieres hacer?")
+if( Oper == "Multiplicacion" ){
+    var n1 = prompt("Dame un numero")
+    var n2 = prompt("Dame otro numero")
+    var R = n1 * n2
+    alert("Resultado: " + R)
+    var A = "Operacion: " + Oper
+    var B = "Primer numero: " + n1
+    var C = "Segundo numero: " + n2
+    var D = "Resultado: " + R
+    document.write('<br>'+A+'<br>'+B+'<br>'+C+'<br>'+D)
+}else if( Oper == "Divicion" ){
+    var n1 = prompt("Dame un numero")
+    var n2 = prompt("Dame otro numero")
+    var R = n1 / n2
+    alert("Resultado: " + R)
+    var A = "Operacion: " + Oper
+    var B = "Primer numero: " + n1
+    var C = "Segundo numero: " + n2
+    var D = "Resultado: " + R
+    document.write('<br>'+A+'<br>'+B+'<br>'+C+'<br>'+D) 
+}else if( Oper == "Resta" ){
+    var n1 = prompt("Dame un numero")
+    var n2 = prompt("Dame otro numero")
+    var R = n1 - n2
+    alert("Resultado: " + R)
+    var A = "Operacion: " + Oper
+    var B = "Primer numero: " + n1
+    var C = "Segundo numero: " + n2
+    var D = "Resultado: " + R
+    document.write('<br>'+A+'<br>'+B+'<br>'+C+'<br>'+D)
+}else if( Oper == "Suma" ){
+    var n1 = parseInt(prompt("Dame un numero"))
+    var n2 = parseInt(prompt("Dame otro numero"))
+    var R = n1 + n2
+    alert("Resultado: " + R)
+    var A = "Operacion: " + Oper
+    var B = "Primer numero: " + n1
+    var C = "Segundo numero: " + n2
+    var D = "Resultado: " + R
+    document.write('<br>'+A+'<br>'+B+'<br>'+C+'<br>'+D)
+}else{
+    document.write("Operacion no valida")
+}
+</script>
+</html>
